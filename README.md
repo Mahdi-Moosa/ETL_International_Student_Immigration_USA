@@ -1,5 +1,7 @@
 # Purpose
 ## Implement a data warehouse for student immigration data
+*This was a capstone project for Udacity Data Engineering Nanodegree.*
+
 This project generates a data warehouse to allow analytics on international students in the USA. Data from following sources are extracted, transformed and loaded into a data warehouse:
 * I94 data from DHS, US-Gov (provided by Udacity; data available for purchase from https://www.trade.gov)
 * Weather data for different cities (US and global) from Kaggle (https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data)
@@ -31,10 +33,12 @@ Following data will be aggregated in the data warehouse:
 * Please follow along 'Capstone Project_ImmigrantStudents.ipynb' jupyter notebook to get insights into the steps of the ETL process.
 
 # Database desgin
-The database was designed by following a star schema, with arrivals_table being at the center of the star. Other tables are:
-	* student_table
-	* city_table
-	* weather_table
-	* climate_table
-	* visa_post_table
+The database was designed by following a star schema, with *arrivals_table* being at the center of the star. Other tables are:
+
+* student_table
+* city_table
+* weather_table
+* climate_table
+* visa_post_table
+
 This design was chosen to facilitate a wide range of analytics that could be performed with minimal number of joins.
