@@ -2,11 +2,12 @@
 ## Implement a data warehouse for student immigration data
 *This was a capstone project for Udacity Data Engineering Nanodegree.*
 
-This project generates a data warehouse to allow analytics on international students in the USA. Data from following sources are extracted, transformed and loaded into a data warehouse:
+This project generates a *source-of-truth* data warehouse to allow analytics on international students in the USA. Data from following sources are extracted, transformed and loaded into a data warehouse:
 * I94 data from DHS, US-Gov (provided by Udacity; data available for purchase from https://www.trade.gov)
 * Weather data for different cities (US and global) from Kaggle (https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data)
 * Climate data - processed from aforementioned weather data
 * US city demographics data from OpenSoft (https://public.opendatasoft.com/explore/dataset/us-cities-demographics/export/)
+
 
 #### Scope 
 Many international students come to the USA either for acedmic studies (F1, F2 visa) or vocational training (M1, M2 visa). Often, dependents accompany these students (F2/M2 visa holders). This project aims to prepare a data warehouse to perform analytics on incoming international students. 
