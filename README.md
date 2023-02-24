@@ -1,6 +1,6 @@
 # Purpose
 ## Implement a data warehouse for student immigration data
-*This was a capstone project for Udacity Data Engineering Nanodegree.*
+*This was a capstone project for [Udacity Data Engineering Nanodegree with AWS](https://www.udacity.com/course/data-engineer-nanodegree--nd027).*
 
 This project generates a *source-of-truth* data warehouse to allow analytics on international students in the USA. Data from following sources are extracted, transformed and loaded into a data warehouse:
 * I94 data from DHS, US-Gov (provided by Udacity; data available for purchase from https://www.trade.gov)
